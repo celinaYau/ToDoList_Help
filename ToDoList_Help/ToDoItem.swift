@@ -9,7 +9,7 @@
 
 import Foundation
 
-class ToDoItem {
+class ToDoItem: Identifiable {
     
     var title = ""
     var isImportant = false
